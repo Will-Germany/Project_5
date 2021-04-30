@@ -3,6 +3,6 @@ s e 3
 s e 2
 s p l 30
 
-a 30 3 <eldritch_blast>
-a 30 2 <weapon_attack>
-a 30 12 <sacred_flame>
+a 30 3 eldritch_blast
+a 30 2 weapon_attack
+a 30 12 sacred_flame

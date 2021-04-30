@@ -21,7 +21,7 @@ void Warlock::WeaponAttack(Entity *target)
 void Warlock::SacredFlame(Entity *target)
 {
     int testdice = std::rand () % 20 + 1; // This may require a different line, unsure exactly how to implement rand here
-    if(testdice >= 13)
+    if(testdice >= 11)
     {
         Attack(target, GetCharisma() * 2.0, "Sacred Flame");
     }
