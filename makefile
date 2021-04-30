@@ -36,7 +36,7 @@ endif
 
 
 Project03: game.o entityBuilder.o itemBuilder.o encounter.o warrior.o monster.o priest.o rogue.o mage.o Warlock.o entity.o inventory.o item.o
-	$(COMPILER) game.o entity.o encounter.o warrior.o monster.o mage.o rogue.o priest.o entityBuilder.o itemBuilder.o inventory.o item.o -o Project03
+	$(COMPILER) game.o entity.o encounter.o warrior.o monster.o mage.o rogue.o priest.o Warlock.o entityBuilder.o itemBuilder.o inventory.o item.o -o Project03
 
 
 game.o: main.cpp entity.hpp warrior.hpp mage.hpp rogue.hpp priest.hpp JsonEntityBuilder.hpp json.hpp
