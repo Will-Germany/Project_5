@@ -1,4 +1,4 @@
-#inlcude "Warlock.hpp"
+#include "Warlock.hpp"
 
 
 Warlock::Warlock(JsonEntityBuilder &builder, JsonItemBuilder & inventory, uint32_t uid) : 
@@ -41,7 +41,7 @@ void Warlock::OutputStatus() const
     PrintInventory();
 }
 
-void Mage::UseAction(Entity * target, const std::string& spellName, const std::string & args)
+void Warlock::UseAction(Entity * target, const std::string& spellName, const std::string & args)
 {
     if(spellName == "eldritch_blast")
     {

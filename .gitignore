@@ -8,3 +8,4 @@
 !checkall.bash
 !*.json
 !output*.txt
+!makefile
