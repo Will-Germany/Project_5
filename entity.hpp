@@ -22,6 +22,7 @@ private:
     uint32_t _agility;
     uint32_t _intelligence;
     uint32_t _wisdom;
+    uint32_t _charisma;
 
     std::string _name;
     std::string _race;
@@ -40,6 +41,7 @@ protected:
     uint32_t GetAgility() const;
     uint32_t GetIntelligence() const;
     uint32_t GetWisdom() const;
+    uint32_t GetCharisma() const;
 
     void announce_item_loot(const Item & item);
 

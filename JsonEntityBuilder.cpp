@@ -98,6 +98,10 @@ EntityBuilder JsonEntityBuilder::BuildEntity(uint32_t uid)
     {
         entity.wisdom = itemFound[STR_WIS];
     }
+    if(itemFound.contains(STR_CHA))
+    {
+        entity.charisma = itemFound[STR_CHA];
+    }
 
     if(itemFound.contains(STR_DAM))
     {
