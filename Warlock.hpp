@@ -5,11 +5,10 @@
 #include "JsonEntityBuilder.hpp"
 #include "entity.hpp"
 
-Class Warlock : public Entity
+class Warlock : public Entity
 {
     private:
             void EldritchBlast(Entity * target);
-            void WeaponAttack(Entity * target);
             void SacredFlame(Entity * target);
     public:
             Warlock(JsonEntityBuilder &builder, JsonItemBuilder & inventory, uint32_t uid);

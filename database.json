@@ -121,6 +121,17 @@
             "inventory" : []
         }, 
         {
+            "UID" : 30,
+            "hp" : 5,
+            "Name" : "Ron",
+            "race" : "Human",
+            "class" : "Warlock",
+            "charisma" : 15,
+            "agility" : 14,
+            "weapon_damage" : 4,
+            "inventory" : []
+            },
+        {
             "UID" : 11, 
             "hp" : 9,
             "Name" : "Milton",
