@@ -6,3 +6,5 @@
 !input*.txt
 !.gitignore
 !checkall.bash
+!*.json
+!output*.txt
