@@ -35,7 +35,7 @@ void Warlock::OutputStatus() const
 {
     std::cout << Class() << ": " << this->Name()
                 << "\n\tCurrent HP: " << this->CurrentHP()
-                << "\n\tIntelligence: " << this->GetIntelligence()
+                << "\n\tCharisma: " << this->GetCharisma()
                 << std::endl;
 
     PrintInventory();
